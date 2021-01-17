@@ -1,0 +1,2556 @@
+html, body {
+	height: 100%;
+	font-family: 'arial';
+	font-size: 16px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	color: black; /* rgb(0,0,0) ou #000 */
+	font-size: 28px;
+	/*font-family: 'vogueregular', sans-serif;*/
+	font-family: 'Roboto Mono', monospace;
+}
+h2{
+	color: rgb(0,0,0);
+	font-size: 24px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+h3{
+	color: rgb(0,0,0);
+	font-size: 20px;
+}
+
+a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	padding: 14px;
+	font-weight: bold;
+}
+
+#Titre_comp a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	padding: 0px;
+	padding-top: 450px;
+	margin-top: -450px;
+	font-weight: bold;
+}
+
+#Titre_gestion_projet a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	padding: 0px;
+	font-weight: bold;
+}
+
+#exemp_exp a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	padding: 0px;
+	font-weight: bold;
+}
+
+#exemp_PBI a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	padding: 0px;
+	font-weight: bold;
+}
+
+#exemp_site a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	padding: 0px;
+	font-weight: bold;
+}
+
+#exemp_CAO a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	padding: 0px;
+	font-weight: bold;
+}
+
+#intro_comp a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	padding: 0px;
+	font-weight: bold;
+}
+
+a:hover{
+	color: rgb(179,182,183);
+	font-weight: bold;
+	transition: ease 0.5s;
+}
+
+#apropos a{
+	color: rgb(0,0,0);
+	padding: 0px; 
+	text-decoration: none;
+}
+
+
+#apropos a:hover{
+	color: rgb(155,160,162);
+	transition: ease 0.5s;
+}
+/* ceci est un commentaire CSS */
+
+nav{
+	background-color: rgb(30,35,54);
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+header{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#hero{
+	background: url("./images/ma_photo27.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 580px;
+	padding-top: 25px;
+}
+
+#bandeau{
+	margin-top: 7%;
+	margin-bottom: 10%;
+	background-color: rgba(255,255,255, 0.7);
+}
+
+#contenu{
+	text-align: center;
+	padding-top: 3.5%;
+	padding-bottom: 5%;
+}
+
+#contenu a{
+	color: rgb(30,35,54);
+	border : 1px solid rgb(30,35,54);
+	padding: 20px;
+	border-radius: 15px;
+	transition: ease 0.8s;
+	font-weight: normal;
+}
+
+#contenu a:hover{
+	color: white;
+	background-color: rgba(30,35,54, 0.8);
+}
+
+#contenu img{
+	transition: 0.5s;
+}
+
+#apropos{
+	display: flex;
+	background-color: rgb(238,238,238);
+}
+
+#intro_comp p{
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: rgb(255,255,255);
+	background-color: rgb(50,58,87);
+}
+
+#apropos p{
+	color: rgb(30,35,54);
+}
+
+#apropos h2{
+	color: rgb(30,35,54));
+}
+
+#apropos_image{
+	flex:1;
+}
+
+#apropos_image img{
+	flex:1;
+	max-width: 95%;
+	padding: 20px;
+}
+
+
+#apropos_texte{
+	flex:2;
+	padding: 20px;
+	text-align: justify;
+}
+
+#apropos2{
+	display: flex;
+	background-color: rgb(30,35,54);
+}
+
+#apropos2 p{
+	color: rgb(255,255,255);
+}
+
+#apropos_texte2 p {
+	padding-left: 20px;
+}
+
+#apropos2 a{
+	font-weight: normal;
+	padding-left: 20px;
+	padding: 0px;
+}
+
+#apropos2 b{
+	color: rgb(255,255,255);
+}
+
+#apropos2 h2{
+	color: rgb(255,255,255);
+}
+
+#apropos_image2{
+	flex:1;
+}
+
+#apropos_image2 img{
+	flex:1;
+	max-width: 95%;
+	padding: 20px;
+	padding-bottom: 5px;
+}
+
+#apropos_texte2{
+	flex:2;
+	padding: 20px;
+	text-align: justify;
+}
+
+#apropos_texte2 h3{
+	color: rgb(255,255,255);
+}
+
+#services{
+	background-color: #666;
+	display: flex;
+	color: white;
+	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+#services div{
+	width: 50%;
+}
+
+.service_item p{
+	display: inline-block; 
+	text-align: justify;
+	padding: 33px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#services h3{
+	color: rgb(255,255,255);
+	padding-top: 2px;
+	padding-bottom: 10px;
+}
+
+.form{
+	padding: 20px;
+}
+
+#lead h2{
+	color: white;
+}
+
+#lead{
+	display: flex;
+	justify-content: center;
+	background-color: rgb(30,35,54);
+	color: white;
+}
+
+#mce-success-response{
+	color: white!important;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+}
+
+footer a{
+	color:rgb(62,72,110);
+}
+
+footer a:hoover{
+	color: #e74c3c;
+}
+
+.social{
+	padding: 20px;
+}
+
+#car{
+	background: url("./images/car.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#safranaircraft{
+	background: url("./images/safranaircraft.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#space{
+	background: url("./images/space.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#snecmaaircraft{
+	background: url("./images/snecmaaircraft.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#bandeaucomp{
+	background-color: rgba(255,255,255, 0.7);
+	height: 100%;
+}
+
+#contenu_exp a{
+	padding: 0px;
+}
+
+#Titre_hobbies h2{
+	padding: 20px;
+	padding-top: 45px;
+	color: rgb(255,255,255);
+	background-color: rgb(50,58,87);
+}
+
+#Titre_intro_comp h2{
+	padding: 20px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	color: rgb(255,255,255);
+	background-color: rgb(50,58,87);
+}
+
+#Titre_comp h3{
+	padding: 16px;
+	background: rgb(50,58,87); 
+	color: rgb(238,238,238);
+}
+
+.wrapper {
+	display: flex;  
+	flex-flow: row wrap;
+	background-color: rgb(50,58,87); 
+	font-weight: bold;
+	text-align: center;
+	padding:5px;
+	padding-left: 20px;
+	padding-right:20px; 
+}
+
+.wrapper > * {
+	padding: 10px;
+	flex: 1 100%;
+}
+
+.main {
+	text-align: left;
+	background: rgb(238,238,238);
+	color: rgb(30,35,54);
+}
+
+.aside-1 {
+	background: rgb(30,35,54);
+	color: rgb(255,255,255);
+}
+
+.aside-2 {
+	background: rgb(238,238,238);
+	color: rgb(30,35,54);
+}
+#photo_voyage_1 {
+	text-align: center;
+}
+
+#photo_voyage_1 img{
+	height: 201px;
+	padding: 5px;
+	padding-left: 11px;
+}
+
+#photo_guitare {
+	text-align: center;
+}
+
+#photo_guitare img{
+	height: 247px;
+	padding: 10px;
+}
+
+@media all and (min-width: 770px) {
+	.aside { flex: 0.5 0 0; }
+}
+
+@media all and (min-width: 800px) {
+	.main    { flex: 3 0px; }
+	.aside-1 { order: 1; } 
+	.main    { order: 2; }
+	.aside-2 { order: 3; }
+
+}
+
+#contenu_exp{
+	text-align: justify;
+	padding: 30px;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+#exemp_exp{
+	background-color: rgb(238,238,238);
+}
+
+#exemp_exp h2{
+	color: rgb(30,35,54);
+}
+
+body{
+	margin: 0px;
+	background-color: whitesmoke;
+}
+#burger{
+	vertical-align: middle; /* Je suis maniaque désolé */
+}
+#menu_links{
+	display: none;
+}
+#menu{
+	background-color: darkcyan;
+	width: 750px;
+	margin: 15px auto;
+	border: 1px solid black;
+}
+#menu a{
+	text-decoration: none;
+	color: whitesmoke;
+	display: block;
+	padding: 1em;
+}
+#menu #menu_link:hover a{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+#menu_bars{
+	text-align: right;
+}
+#burger:checked ~ #menu_links{
+	display: block;
+}
+
+/* page = Mon projet */
+
+.container {
+	display:flex;
+	text-align: center;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	color: rgb(30,35,54);
+	background-color: rgb(238,238,238);
+	padding: 20px;
+}
+
+.container p{
+	font-size: 16px;
+}
+
+.ele {
+	height:100px;
+	flex-basis: calc(100% / 6);
+	font-size: 87px;
+	padding-top: 0px;
+}
+.container::after,
+.container::before {
+	content: '';
+	flex-basis: calc(100% / 12);
+}
+.container::after {
+	order: 1;
+}
+.ele:nth-child(n+6) {
+	order: 2;
+}
+
+#Titre_PMO{
+	padding: 20px;
+	padding-top: 0px;
+	color: rgb(255,255,255);
+	background-color: rgb(62,72,110);
+}
+
+#Titre_PMO p{
+	font-size: 16px;
+	color: rgb(238,238,238);
+	font-weight: normal;
+}
+
+#Titre_PMO h3{
+	font-size: 20px;
+	color: rgb(238,238,238);
+}
+
+.liste p{
+	font-size: 16px;
+	color: rgb(238,238,238);
+	padding-left: 74px;
+}
+
+#Titre_mon_projet{
+	padding: 20px;
+	background-color: rgb(62,72,110);
+}
+
+#Titre_mon_projet h2{
+	color: rgb(255,255,255);
+}
+
+#Titre_compétences{
+	background-color: rgb(62,72,110);
+}
+
+#Titre_compétences h1{
+	color: rgb(238,238,238);
+	padding-left: 20px;
+	padding: 10px;
+	padding-top: 25px;
+}
+
+#Titre_compétences h2{
+	color: rgb(238,238,238);
+	padding-left: 20px;
+	padding: 10px;
+}
+
+#Titre_evolution{
+	padding: 20px;
+	background-color: rgb(238,238,238);
+}
+
+#Titre_evolution h3{
+	color: rgb(30,35,54);
+}
+
+#Titre_MOI{
+	padding: 20px;
+	background-color: rgb(238,238,238);
+}
+
+#Titre_MOI p{
+	font-size: 16px;
+	color: rgb(30,35,54);
+	font-weight: normal;
+}
+
+/* Page Compétences */
+
+#exemp_exp{
+	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: rgb(50,58,87);
+}
+
+#exemp_exp h3{
+	color:rgb(238,238,238);
+}
+
+#gestion_projet {
+	width: 80%;
+	margin: auto;
+}
+
+#Titre_gestion_projet h3 {
+	padding: 20px;
+	padding-left:30px;
+	padding-bottom: 10px;
+	color: rgb(255,255,255); 
+	background-color: rgb(50,58,87);
+}
+
+#Titre_gestion_projet p{
+	text-align: justify;
+	padding: 20px;
+	padding-top: 10px;
+	color: rgb(255,255,255);
+	background-color: rgb(50,58,87);
+}
+
+#accordion{
+	background-color: rgb(50,58,87);
+}
+
+.diapo{
+	position: relative;
+	overflow: hidden;
+}
+
+#nav-droite, #nav-gauche{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	color: black;
+	font-size: 3em;
+}
+
+#nav-droite{
+	right: 20px;
+}
+
+#nav-gauche{
+	left: 20px;
+}
+
+
+.elements{
+	display: flex;
+	transition: 1s linear;
+}
+
+.element{
+	flex: 1 0 100%;
+	position: relative;
+}
+
+.element > img{
+	width: 100%;
+}
+
+.caption{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	color: rgb(255,255,255);
+	padding: 15px; 
+}
+
+#gestion_projet_texte{
+	padding: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgb(50,58,87);
+}
+
+#gestion_projet_texte h4{
+	color:rgb(238,238,238);
+}
+
+#gestion_projet_texte p{
+	color:rgb(238,238,238);
+	text-align: justify;
+	padding-left: 0px;
+}
+
+#liste_gestion_projet{
+	padding: 10px;
+	padding-left: 110px;
+	color: rgb(50,58,87);
+	background-color: rgb(238,238,238);
+	text-align: justify;
+}
+
+#texte_gdp {
+	color: rgb(50,58,87);
+	text-align: justify;
+}
+
+#exemp_PBI{
+	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgb(50,58,87);
+}
+
+#exemp_PBI h4{
+	color:rgb(238,238,238);
+}
+
+#exemp_PBI p{
+	color:rgb(238,238,238);
+	text-align: justify;
+}
+
+#PBIdashboard{
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgb(50,58,87);
+	text-align: center;
+}
+
+#PBIdashboard iframe{
+	width: 650px;
+	height: 300px;
+}
+
+#website-code{
+	padding: 20px;
+	background-color: rgb(50,58,87);
+}
+
+#exemp_site h4{
+	color:rgb(238,238,238);
+}
+
+#exemp_site p{
+	color:rgb(238,238,238);
+	text-align: justify;
+}
+
+#exemp_site {
+	padding: 20px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	background-color: rgb(50,58,87);
+}
+
+#exemp_CAO{
+	padding: 20px;
+	background-color: rgb(50,58,87);
+}
+
+#exemp_CAO h4{
+	color:rgb(238,238,238);
+}
+
+#exemp_CAO p{
+	color:rgb(238,238,238);
+	text-align: justify;
+}
+
+#photo_CAO img{
+	width: 950px;
+	padding: 10px;
+}	
+
+#photo_CAO {
+	text-align: center;
+}	
+
+#photo_SWOT{
+	text-align: center;
+}
+#photo_SWOT img{
+	width: 700px;
+	padding: 20px;
+}
+
+#photo_WBS2{
+	text-align: center;
+}
+#photo_WBS2 img{
+	width: 700px;
+	padding: 20px;
+}
+
+#photo_QQOQCP{
+	text-align: center;
+}
+#photo_QQOQCP img{
+	width: 800px;
+	padding: 20px;
+}
+
+#photo_GANTT2{
+	text-align: center;
+}
+#photo_GANTT2 img{
+	width: 920px;
+	padding: 20px;
+}
+
+#QQOQCP {
+	padding: 20px;
+	padding-top: 0px;
+	text-align: justify;
+}
+
+#QQOQCP h2{
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+
+#QQOQCP p{
+	font-size: 11px;
+	padding: 5px;
+}
+
+
+.accordion {
+	background-color: rgb(201,201,201);
+	color: rgb(50,58,87);
+	cursor: pointer;
+	padding: 18px;
+	width: 81%;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+}
+
+.active, .accordion:hover {
+	background-color: rgb(187,190,201);
+}
+
+.accordion:after {
+	content: '\002B';
+	color: #777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\2212";
+}
+
+.panel {
+	padding: 0 18px;
+	background-color: rgb(238,238,238);
+	position: relative;
+	transform: translate(-50%);
+	width: 77%;
+	left: 50%;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.ancre{
+	position: relative;
+	padding-top: 20px;
+}
+
+p#liste_film {
+	padding: 10px;
+	padding-left: 30px;
+}
+
+#liste_film img{
+	float: right;
+	height: 247px; 
+	padding: 10px;
+}
+
+
+/* Adaptation écran */	
+
+@media screen and (min-width: 0px) and (max-width: 420px){
+	/* Ici, ce sont les médias querya page d'accueil (index) */	
+	#hero{
+		background: url("./images/ma_photo27.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 545px;
+		width: 100%;
+		padding-top: 50px;		
+	}
+
+	#contenu_exp{
+		text-align: justify;
+		padding: 7px;
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+
+	#contenu_exp p{
+		padding-left: 15px;
+		font-size: 16px;
+	}
+
+	#contenu_exp h3{
+		font-size: 20px;
+	}
+	#contenu_exp h2{
+		font-size: 20px;
+		padding-top: 5px;
+	}
+
+	#Titre_compétences h2{
+		padding: 10px;
+		padding-top: 45px;
+		font-size: 16px;
+	}
+
+	#Titre_intro_comp h2{
+		padding-top: 45px;
+	}
+
+	#Titre_mon_projet h2{
+		padding-top: 30px;
+	}
+
+	#Titre_hobbies h2{
+		padding-top: 50px;
+	}
+	
+	#car{
+		height: 220%;
+	}
+
+	#safranaircraft{
+		height: 192%;
+	}
+
+	#space{
+		height: 202%;
+	}
+
+	#snecmaaircraft{
+		height: 107%;
+	}
+
+	#contenu h1{
+		font-size: 23px;
+	}
+
+	#bandeau{
+		margin-top: 4%;
+		margin-bottom: 10%;
+		background-color: rgba(255,255,255, 0.7);
+	}
+	#contenu {
+		text-align: center;
+		padding-top: 5.5%;
+		padding-bottom: 11%;
+	}
+
+	#apropos{
+		flex-direction: column;
+		/* Ici, on referme la déclaration #apropos */
+	}
+
+	#apropos2{
+		flex-direction: column;
+		/* Ici, on referme la déclaration #apropos */
+	}
+
+	#apropos2 p {
+		padding-left: 30px;
+	} 
+
+	#apropos_texte {
+		padding: 0px;
+	}
+
+	#apropos_texte h2{
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+
+	#apropos_texte p{
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 20px;
+		text-align: justify;
+	}
+
+	#apropos_image2 img {
+		flex: 1;
+		height: 350px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#apropos_texte2{
+		flex: 2;
+		padding-left: 20px;
+		padding-top: 10px;
+		text-align: justify;
+	}
+
+	#apropos_image img{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 60%;
+		display: block;
+	}
+
+	#services div {
+		width: 100%;
+	}
+
+	#services {
+		padding: 0px; 
+	}
+
+	#services{
+		flex-direction: column;
+		/* Ici, on referme la déclaration #services */
+	}
+	nav a{
+		display: block;
+		padding: 10px;
+		/* Ici, on referme la déclaration nav a */
+	}
+	nav{
+		padding-bottom: 0px;
+		padding-top: 2px;
+		
+	}
+
+	/* Ici, ce sont les médias querya page hobbies (index) */
+	#photo_voyage_1 img{
+		height: 192px;
+		padding: 5px;
+	}
+
+	#photo_guitare img{
+		height: 202px;
+		padding: 5px;
+	}
+
+	/* PAGE COMPETENCE */
+
+	.wrapper {
+		padding:7px;
+	}
+
+	#gestion_projet_texte{
+		padding: 10px;
+	}
+
+	#gestion_projet_texte p{
+		padding-left: 15px;
+		padding-right: 10px;
+	}
+
+	#liste_gestion_projet {
+		padding-left: 50px;
+		padding-right: 15px;
+	}
+
+	#exemp_CAO{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#photo_CAO img{
+		height: 200px;
+		width: 300px;
+		padding:5px; 
+	}
+
+	#photo_SWOT img{
+		height: 200px;
+		width: 300px;
+		padding:5px; 
+	}
+
+	#exemp_PBI{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#PBIdashboard {
+		padding: 7px;
+	}
+
+	#PBIdashboard iframe{
+		height: 200px;
+		width: 290px;
+	}
+
+	#exemp_site{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#website-code p{
+		padding: 7px;
+	}
+
+	#QQOQCP {
+		padding: 10px;
+		padding-top: 0px;
+		text-align: justify;
+	}
+
+	#QQOQCP h2{
+		font-size: 10px;
+	}
+
+	#QQOQCP p{
+		font-size: 10px;
+	}
+
+	.accordion {
+		width: 95%;
+	}
+
+	.panel {
+		width: 90%;
+		padding: 0px 8px;
+	}
+
+	#photo_WBS2 img {
+		width: 360px;
+		padding: 10px;
+	}
+
+	#photo_QQOQCP img {
+		width: 357px;
+		padding: 0px;
+	}
+
+	#photo_GANTT2 img {
+		width: 357px;
+		padding: 10px;
+	}
+
+	#liste_film img{
+		display: none;
+	}
+
+	#h_texte{
+		text-align: justify;
+	}
+
+	#liste_film img {
+		float: right;
+		height: 247px;
+		padding: 10px;
+		padding-right: 0px;
+	}
+}
+
+/*
+@media screen and (min-width: 331px) and (max-width: 420px){ *//* ICI c'est smartphone */
+
+/* Ici, ce sont les médias querya page d'accueil (index) */
+/*	#hero{
+		background: url("./images/ma_photo27.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 540px;
+		width: 100%;
+		padding-top: 50px;
+	}
+
+	#contenu_exp{
+		text-align: justify;
+		padding: 7px;
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+
+	#contenu_exp p{
+		padding-left: 15px;
+		font-size: 16px;
+	}
+
+	#contenu_exp h3{
+		font-size: 20px;
+	}
+	#contenu_exp h2{
+		font-size: 20px;
+		padding-top: 5px;
+	}
+
+	#Titre_compétences h2{
+		padding: 10px;
+		font-size: 16px;
+	}
+	
+	#car{
+		height: 202%;
+	}
+
+	#safranaircraft{
+		height: 192%;
+	}
+
+	#space{
+		height: 202%;
+	}
+
+	#snecmaaircraft{
+		height: 107%;
+	}
+
+
+	#contenu h1{
+		font-size: 23px;
+	}
+
+	#bandeau{
+		margin-top: 4%;
+		margin-bottom: 10%;
+		background-color: rgba(255,255,255, 0.7);
+	}
+	#contenu {
+    	text-align: center;
+    	padding-top: 5.5%;
+    	padding-bottom: 11%;
+	}
+
+	#apropos{
+		flex-direction: column;
+		}*/ /* Ici, on referme la déclaration #apropos */
+/*
+	#apropos2{
+		flex-direction: column;
+		}*/ /* Ici, on referme la déclaration #apropos */
+/*
+	#apropos_texte{
+		display: none;
+	}
+
+	#apropos_texte_portable h2{
+		padding-left: 15px;
+	}
+
+	#apropos_texte_portable p{
+		padding-left: 20px;
+	    padding-right: 20px;
+	    padding-bottom: 20px;
+	    text-align: justify;
+	}
+
+	#apropos_image2 img {
+    	flex: 1;
+	    height: 350px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	#apropos_texte2{
+		flex: 2;
+    	padding-left: 20px;
+    	padding-top: 10px;
+    	text-align: justify;
+	}
+
+	#apropos_image img{
+		margin-left: auto;
+	    margin-right: auto;
+	    max-width: 60%;
+	    display: block;
+	}
+	#services{
+		flex-direction: column;
+		}*/ /* Ici, on referme la déclaration #services */
+	/*nav a{
+		display: block;
+		padding: 10px;
+	} 
+	nav{
+		padding-bottom: 0px;
+		padding-top: 2px;
+		} */
+
+		/* Ici, ce sont les médias querya page hobbies (index) */
+	/*#photo_voyage_1 img{
+  		height: 192px;
+  		padding: 5px;
+	}
+
+	#photo_guitare img{
+		height: 202px;
+		padding: 5px;
+		}*/
+
+		/* PAGE COMPETENCE */
+/*
+	.wrapper {
+	  padding:7px;
+	}	
+
+	#exemp_CAO{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#photo_CAO img{
+		height: 230px;
+		width: 350px;
+		padding:5px; 
+	}
+
+	#exemp_PBI{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#PBIdashboard {
+		padding: 7px;
+	}
+
+	#PBIdashboard iframe{
+		height: 230px;
+		width: 340px;
+	}
+
+	#exemp_site{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#website-code p{
+		padding: 7px;
+	}
+
+
+	}*/ /* Ici, on referme la media query */
+}
+@media screen and (min-width: 421px) and (max-width: 769px) and (orientation: portrait) {
+	#hero{
+		background: url("./images/ma_photo27.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 600px;
+		width: 100%;
+		padding-top: 40px;
+	}
+
+	#contenu_exp{
+		text-align: justify;
+		padding: 7px;
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+
+	#contenu_exp p{
+		padding-left: 15px;
+		font-size: 16px;
+	}
+
+	#contenu_exp h3{
+		font-size: 18px;
+	}
+	#contenu_exp h2{
+		font-size: 20px;
+		padding-top: 5px;
+	}
+
+	#Titre_compétences h2{
+		padding: 10px;
+		font-size: 16px;
+	}
+
+	#Titre_intro_comp h2{
+		padding-top: 45px;
+	}
+
+	#Titre_mon_projet h2{
+		padding-top: 30px;
+	}
+
+	#Titre_hobbies h2{
+		padding-top: 50px;
+	}
+
+	#contenu h1{
+		font-size: 23px;
+	}
+
+	#car{
+		background: url("./images/car.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 220%;
+	}
+
+	#safranaircraft{
+		background: url("./images/safranaircraft.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 192%;
+	}
+
+	#space{
+		background: url("./images/space.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 202%;
+	}
+
+	#snecmaaircraft{
+		background: url("./images/snecmaaircraft.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 107%;
+	}
+
+	#bandeau{
+		margin-top: 8%;
+		margin-bottom: 10%;
+		background-color: rgba(255,255,255, 0.7);
+	}
+
+	#apropos{
+		flex-direction: column;
+	} 
+	/* Ici, on referme la déclaration #apropos */
+
+	#apropos2{
+		flex-direction: column;
+	} 
+	/* Ici, on referme la déclaration #apropos */
+
+	#apropos2 p {
+		padding-left: 20px;
+	} 
+
+
+	#apropos_texte h2{
+		padding-left: 10px;
+	}
+
+	#apropos_texte p{
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 20px;
+		text-align: justify;
+	}
+
+	#apropos_image2 img {
+		flex: 1;
+		max-width: 44%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#apropos_texte2{
+		flex: 2;
+		padding-left: 20px;
+		padding-top: 10px;
+		text-align: justify;
+	}
+
+	#apropos_image img{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 50%;
+		display: block;
+	}
+
+	#apropos_image img {
+		padding-bottom: 0px;
+	}
+
+
+	#services div {
+		width: 100%;
+	}
+
+	#services {
+		padding: 0px; 
+	}
+
+	#services{
+		flex-direction: column;
+	} 
+	/* Ici, on referme la déclaration #services */
+
+	/* Ici, ce sont les médias querya page hobbies (index) */
+	#photo_voyage_1 img{
+		height: 146px;
+		padding: 5px;
+	}
+
+	#photo_guitare img{
+		height: 146px;
+		padding: 5px;
+	}
+
+	/* PAGE COMPETENCE */
+
+
+	.wrapper {
+		padding:7px;
+	}		
+
+	#exemp_CAO{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#photo_CAO img{
+		height: 260px;
+		width: 400px;
+		padding:5px; 
+	}
+
+	#exemp_PBI{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#PBIdashboard {
+		padding: 7px;
+	}
+
+	#PBIdashboard iframe{
+		height: 260px;
+		width: 400px;
+	}
+
+	#exemp_site{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#website-code p{
+		padding: 7px;
+	}
+	#QQOQCP {
+		padding: 20px;
+		padding-top: 0px;
+		text-align: justify;
+	}
+
+	#QQOQCP h2{
+		font-size: 12px;
+	}
+
+	#QQOQCP p{
+		font-size: 11px;
+	}
+
+	.accordion {
+		width: 95%;
+	}
+
+	.panel {
+		width: 90%;
+		padding: 0px 8px;
+	}
+
+	#photo_SWOT img {
+		width: 415px;
+		padding: 10px;
+	}
+
+	#photo_WBS2 img {
+		width: 412px;
+		padding: 10px;
+	}
+
+	#photo_QQOQCP img {
+		width: 415px;
+		padding: 10px;
+	}
+
+	#photo_GANTT2 img {
+		width: 415px;
+		padding: 10px;
+	}
+
+	#liste_gestion_projet {
+		padding-left: 42px;
+	}
+
+	#Titre_compétences h1{
+		padding-top: 45px;
+	}
+
+	p#liste_film {
+		padding: 10px; 
+		padding-left: 30px;
+	}
+
+	#liste_film img {
+		display: none;
+
+	} 
+
+/* Ici, on referme la media query */
+
+@media screen and (min-width: 421px) and (max-width: 769px) and (orientation: landscape) {
+	#hero{
+		background: url("./images/ma_photo27.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 530px;
+		width: 100%;
+		padding-top: 50px;
+	}
+
+	#contenu_exp{
+		text-align: justify;
+		padding: 0px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#contenu_exp p{
+		padding-left: 15px;
+		font-size: 16px;
+	}
+
+	#contenu_exp h3{
+		font-size: 18px;
+	}
+	#contenu_exp h2{
+		font-size: 20px;
+		padding-top: 0px;
+	}
+
+	#Titre_compétences h2{
+		padding: 10px;
+		font-size: 16px;
+	}
+
+	#contenu h1{
+		font-size: 23px;
+	}
+
+	#car{
+		background: url("./images/car.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 180%;
+	}
+
+	#safranaircraft{
+		background: url("./images/safranaircraft.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 155%;
+	}
+
+	#space{
+		background: url("./images/space.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 170%;
+	}
+
+	#snecmaaircraft{
+		background: url("./images/snecmaaircraft.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 90%;
+	}
+
+	#bandeau{
+		margin-top: 8%;
+		margin-bottom: 10%;
+		background-color: rgba(255,255,255, 0.7);
+	}
+
+	#apropos{
+		flex-direction: column;
+	} 
+	/* Ici, on referme la déclaration #apropos */
+
+	#apropos2{
+		flex-direction: column;
+	} 
+	/* Ici, on referme la déclaration #apropos */
+
+	#apropos2 p {
+		padding-left: 20px;
+	} 
+
+
+	#apropos_texte h2{
+		padding-left: 10px;
+	}
+
+	#apropos_texte p{
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 20px;
+		text-align: justify;
+	}
+
+	#apropos_image2 img {
+		flex: 1;
+		max-width: 44%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#apropos_texte2{
+		flex: 2;
+		padding-left: 20px;
+		padding-top: 10px;
+		text-align: justify;
+	}
+
+	#apropos_image img{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 50%;
+		display: block;
+	}
+
+	#apropos_image img {
+		padding-bottom: 0px;
+	}
+
+
+	#services div {
+		width: 100%;
+	}
+
+	#services{
+		flex-direction: column;
+	} 
+	/* Ici, on referme la déclaration #services */
+
+	/* Ici, ce sont les médias querya page hobbies (index) */
+	#photo_voyage_1 img{
+		height: 146px;
+		padding: 5px;
+	}
+
+	#photo_guitare img{
+		height: 146px;
+		padding: 5px;
+	}
+
+	/* PAGE COMPETENCE */
+
+
+	.wrapper {
+		padding:7px;
+	}		
+
+	#exemp_CAO{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#photo_CAO img{
+		height: 260px;
+		width: 400px;
+		padding:5px; 
+	}
+
+	#exemp_PBI{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#PBIdashboard {
+		padding: 7px;
+	}
+
+	#PBIdashboard iframe{
+		height: 260px;
+		width: 400px;
+	}
+
+	#exemp_site{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#website-code p{
+		padding: 7px;
+	}
+	#QQOQCP {
+		padding: 20px;
+		padding-top: 0px;
+		text-align: justify;
+	}
+
+	#QQOQCP h2{
+		font-size: 12px;
+	}
+
+	#QQOQCP p{
+		font-size: 11px;
+	}
+
+	.accordion {
+		width: 95%;
+	}
+
+	.panel {
+		width: 97%;
+		padding: 0px 8px;
+	}
+
+	#photo_SWOT img {
+		width: 580px;
+		padding: 20px;
+	}
+
+	#photo_WBS2 img {
+		width: 560px;
+	}
+
+	#photo_QQOQCP img {
+		width: 560px;
+	}
+
+	#photo_GANTT2 img {
+		width: 560px;
+	}
+
+	#Titre_compétences h1{
+		padding-top: 45px;
+	}
+
+	#liste_film img {
+		float: right;
+		height: 247px;
+		padding: 10px;
+	}
+
+
+} 
+/* Ici, on referme la media query */
+/*
+@media screen and (min-width: 761px) and (max-width: 769px){
+
+	#hero{
+		background: url("./images/ma_photo27.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 600px;
+	}
+
+	#contenu_exp{
+		text-align: justify;
+		padding: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#contenu_exp p{
+		padding-left: 30px;
+		font-size: 22px;
+	}
+
+	#contenu_exp h3{
+		font-size: 24px;
+	}
+
+	#contenu_exp h2{
+		font-size: 26px;
+	}
+
+	#Titre_compétences h2{
+		padding: 10px;
+		padding-left: 15px;
+		font-size: 25px;
+	}
+
+	#car{
+		height: 115%;
+	}
+
+	#safranaircraft{
+		height: 110%;
+	}
+
+	#space{
+		height: 120%;
+	}
+
+	#snecmaaircraft{
+		background: url("./images/snecmaaircraft.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 62%;
+	}
+
+	#apropos_texte{
+		padding-top: 5px;
+	}
+
+	#apropos_texte_portable{
+		display: none;
+	}
+
+	#apropos_image img{
+		padding-bottom: 5px;
+	}
+	*/
+	/* Ici, ce sont les médias querya page hobbies (index) */
+/*		#photo_voyage_1 img{
+  		height: 167px;
+ 		padding: 5px;
+	}
+
+	#photo_guitare img{
+		height: 167px;
+		padding: 5px;
+		}*/
+
+		/* PAGE COMPETENCE */
+
+/*	  padding:7px;
+	}
+
+	#exemp_CAO{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#photo_CAO img{
+		height: 400px;
+		width: 740px;
+		padding:5px; 
+	}
+
+	#exemp_PBI{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#PBIdashboard {
+		padding: 7px;
+	}
+
+	#PBIdashboard iframe{
+		height: 400px;
+		width: 740px;
+	}
+
+	#exemp_site{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#website-code p{
+		padding: 7px;
+	}
+
+	}
+	*//* Ici, on referme la media query */
+}
+@media screen and (min-width: 770px) and (max-width: 1049px)(orientation: portrait) {
+	#hero{
+		background: url("./images/ma_photo27.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 660px;
+	}
+
+	#contenu_exp{
+		text-align: justify;
+		padding: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#contenu_exp p{
+		padding-left: 30px;
+		font-size: 22px;
+	}
+
+	#contenu_exp h3{
+		font-size: 24px;
+	}
+
+	#contenu_exp h2{
+		font-size: 26px;
+	}
+
+	#car{
+		background: url("./images/car.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 115%;
+	}
+
+	#safranaircraft{
+		background: url("./images/safranaircraft.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 110%;
+	}
+
+	#space{
+		background: url("./images/space.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 120%;
+	}
+
+	#snecmaaircraft{
+		background: url("./images/snecmaaircraft.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 62%;
+	}
+
+
+	#Titre_compétences h2{
+		padding: 10px;
+		padding-left: 15px;
+		font-size: 25px;
+	}
+	#contenu {
+		text-align: center;
+		padding-top: 5%;
+		padding-bottom: 7%;
+	}
+
+	#apropos_texte{
+		padding-top: 20px;
+	}
+
+	#apropos_image img{
+		padding-bottom: 5px;
+	}
+
+	/* PAGE COMPETENCE */
+
+	#exemp_CAO{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#photo_CAO img{
+		width: 945px;
+		padding:5px; 
+	}
+
+	#exemp_PBI{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#PBIdashboard {
+		padding: 7px;
+	}
+
+	#PBIdashboard iframe{
+		height: 600px;
+		width: 1000px;
+	}
+
+
+	#exemp_site{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#website-code p{
+		padding: 7px;
+	}
+
+	/* Ici, ce sont les médias querya page hobbies (index) */
+	#photo_voyage_1 img{
+		height: 200px;
+		padding: 5px;
+	}
+
+	#photo_guitare img{
+		height: 200px;
+		padding: 5px;
+	}
+
+	#QQOQCP {
+		padding: 20px;
+		padding-top: 0px;
+		text-align: justify;
+	}
+
+	#QQOQCP h2{
+		font-size: 12px;
+	}
+
+	#QQOQCP p{
+		font-size: 11px;
+	}
+
+} 
+/* Ici, on referme la media query */
+
+@media screen and (min-width: 770px) and (max-width: 1049px)(orientation: landscape) {
+	#hero{
+		background: url("./images/ma_photo27.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 660px;
+	}
+
+	#contenu_exp{
+		text-align: justify;
+		padding: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#contenu_exp p{
+		padding-left: 30px;
+		font-size: 22px;
+	}
+
+	#contenu_exp h3{
+		font-size: 24px;
+	}
+
+	#contenu_exp h2{
+		font-size: 26px;
+	}
+
+	#car{
+		background: url("./images/car.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 115%;
+	}
+
+	#car h2{
+		font-size: 2px;
+
+	}
+
+	#car h3{
+		font-size: 2px;
+	}
+
+	#car p{
+		font-size: 2px;
+	}
+
+
+	#safranaircraft{
+		background: url("./images/safranaircraft.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 110%;
+	}
+
+	#space{
+		background: url("./images/space.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 120%;
+	}
+
+	#snecmaaircraft{
+		background: url("./images/snecmaaircraft.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 62%;
+	}
+
+
+	#Titre_compétences h2{
+		padding: 10px;
+		padding-left: 15px;
+		font-size: 25px;
+	}
+	#contenu {
+		text-align: center;
+		padding-top: 5%;
+		padding-bottom: 7%;
+	}
+
+	#apropos_texte{
+		padding-top: 20px;
+	}
+
+	#apropos_image img{
+		padding-bottom: 5px;
+	}
+
+	/* PAGE COMPETENCE */
+
+	#exemp_CAO{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#photo_CAO img{
+		height: 600px;
+		width: 1000px;
+		padding:5px; 
+	}
+
+	#exemp_PBI{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#PBIdashboard {
+		padding: 7px;
+	}
+
+	#PBIdashboard iframe{
+		height: 60px;
+		width: 100px;
+	}
+
+	#exemp_site{
+		padding:5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#website-code p{
+		padding: 7px;
+	}
+
+	/* Ici, ce sont les médias querya page hobbies (index) */
+	#photo_voyage_1 img{
+		height: 200px;
+		padding: 5px;
+	}
+
+	#photo_guitare img{
+		height: 200px;
+		padding: 5px;
+	}
+
+	#QQOQCP {
+		padding: 20px;
+		text-align: justify;
+	}
+
+	#QQOQCP h2{
+		font-size: 12px;
+	}
+
+	#QQOQCP p{
+		font-size: 11px;
+	}
+
+} 
+/* Ici, on referme la media query */
+
+@media screen and (min-width: 1050px) and (max-width: 1449px){
+	#hero{
+		background: url("./images/ma_photo27.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 631px;
+		padding-top: 30px;
+	}
+
+	#contenu_exp{
+		text-align: justify;
+		padding: 16px;
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+	#contenu_exp p{
+		padding-left: 30px;
+	}
+
+	#contenu_exp h3{
+		font-size: 20px;
+	}
+
+	#Titre_compétences h2{
+		padding: 20px;
+		font-size: 20px;
+		color: white;
+		background-color: black;
+	}
+
+	#car{
+		height: 95%;
+	}
+
+	#safranaircraft{
+		height: 95%;
+	}
+
+	#space{
+		height: 100%;
+	}
+
+	#snecmaaircraft{
+		height: 60%;
+	}
+
+	#contenu {
+		text-align: center;
+		padding-top: 3.5%;
+		padding-bottom: 5%;
+	}
+
+	#bandeau{
+		margin-top: 3%;
+		margin-bottom: 10%;
+		background-color: rgba(255,255,255, 0.6);
+	}
+
+	#apropos_image img {
+		flex: 1;
+		max-width: 85%;
+		padding: 20px;
+		padding-left: 40px;
+	}
+
+	#apropos_texte {
+		flex: 2;
+		padding-top: 20px;
+		padding-right: 30px;
+		text-align: justify;
+	}
+
+	#apropos_image2 img {
+		flex: 1;
+		max-width: 85%;
+		padding: 20px;
+		padding-left: 40px;
+	}
+
+	#apropos_texte2 {
+		flex: 2;
+		padding-top: 20px;
+		padding-right: 30px;
+		text-align: justify;
+	}
+
+	/* Ici, ce sont les médias querya page hobbies (index) */
+	#photo_voyage_1 img{
+		height: 300px;
+		padding: 15px;
+	}
+
+	#photo_guitare img{
+		height: 300px;
+		padding: 15px;
+	}
+
+
+} 
+/* Ici, on referme la media query */
+
+@media screen and (min-width: 1450px){
+
+	#hero{
+		height: 540px;
+		width: 100%;
+		padding-top: 50px;
+	}
+
+	#contenu_exp{
+		text-align: justify;
+		padding: 20px;
+		padding-left: 55px;
+		padding-right: 55px;
+	}
+
+	#contenu_exp p{
+		padding-left: 50px;
+	}
+
+	#car{
+		background: url("./images/car.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 2000px;
+	}
+
+	#safranaircraft{
+		background: url("./images/safranaircraft.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 200px;
+	}
+
+	#space{
+		background: url("./images/space.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 200px;
+	}
+
+	#snecmaaircraft{
+		background: url("./images/snecmaaircraft.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 200px;
+	}
+
+	#contenu_exp h3{
+		font-size: 20px;
+	}
+
+	header a{
+		font-size: 24px;
+	}
+
+	html, body {
+		font-size: 24px;
+	}
+
+	h1{
+		font-size: 40px;
+	}
+
+
+	h2{
+		font-size: 	36px;
+	}
+
+	h3{
+		font-size: 30px;
+	}
+
+	header p{
+		font-size: 24px;
+	}
+
+	p{
+		font-size: 26px;
+	}
+
+	i{
+		font-size: 26px;
+	}
+
+	#contenu {
+		text-align: center;
+		padding-top: 3.5%;
+		padding-bottom: 5%;
+	}
+
+	#bandeau{
+		margin-top: 7%;
+		margin-bottom: 15%;
+		background-color: rgba(255,255,255, 0.6);
+	}
+
+	#apropos_image img {
+		flex: 1;
+		max-width: 85%;
+		padding: 20px;
+		padding-left: 40px;
+	}
+
+	#apropos_texte_portable {
+		display: none;
+	}
+
+	#apropos_texte {
+		flex: 2;
+		padding-top: 20px;
+		padding-right: 30px;
+		text-align: justify;
+	}
+
+	#apropos_image2 img {
+		flex: 1;
+		max-width: 85%;
+		padding: 20px;
+		padding-left: 40px;
+	}
+
+	#apropos_texte2 {
+		flex: 2;
+		padding-top: 20px;
+		padding-right: 30px;
+		text-align: justify;
+	}
+
+	/* Ici, ce sont les médias querya page hobbies (index) */
+	#photo_voyage_1 img{
+		height: 300px;
+		padding: 15px;
+	}
+
+	#photo_guitare img{
+		height: 300px;
+		padding: 15px;
+	}
+
+	#Titre_compétences h2{
+		padding: 20px;
+		font-size: 20px;
+		color: white;
+		background-color: black;
+	}
+
+	#exemp_CAO{
+		padding:20px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#exemp_PBI{
+		padding:20px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#PBIdashboard {
+		padding: 20px;
+		padding-left: 200px;
+	}
+
+	#PBIdashboard iframe{
+		height: 3000px;
+		width:3000px;
+	}
+
+
+	#exemp_site{
+		padding:20px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#website-code p{
+		padding: 20px;
+		text-align: justify;
+	}
+
+} /* Ici, on referme la media query */
